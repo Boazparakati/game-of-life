@@ -8,6 +8,7 @@ pipeline {
     }
     tools {
         maven 'Mvn_3.6'
+    }
     stages {
         stage('git') {
             steps {
