@@ -1,6 +1,6 @@
 pipeline {
     agent {label 'JDK-8'}
-    option {
+    options {
         timeout(time: 10, unit: 'MINUTES')
     }
     triggers {
